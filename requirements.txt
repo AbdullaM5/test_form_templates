@@ -1,0 +1,2 @@
+apistar==0.2.3
+tinydb==3.4.1
