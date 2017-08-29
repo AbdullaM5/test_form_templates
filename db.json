@@ -1,0 +1,51 @@
+{
+  "_default": {
+    "1": {
+      "name": "registration_form",
+      "fields": [
+        {
+          "name": "username",
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "type": "email"
+        },
+        {
+          "name": "phone_number",
+          "type": "phone_number"
+        },
+        {
+          "name": "password",
+          "type": "text"
+        }
+      ]
+    },
+    "2": {
+      "name": "order_form",
+      "fields": [
+        {
+          "name": "email",
+          "type": "email"
+        },
+        {
+          "name": "created",
+          "type": "date"
+        }
+      ]
+    },
+    "3": {
+      "name": "login_form",
+      "fields": [
+        {
+          "name": "email_address",
+          "type": "email"
+        },
+        {
+          "name": "password",
+          "type": "text"
+        }
+      ]
+    }
+  }
+}
